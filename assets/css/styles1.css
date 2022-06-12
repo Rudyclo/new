@@ -350,11 +350,11 @@ body.dark-theme {
 
 .home__search i {
   font-size: 1.25rem;
-  color: var(--text-color);
+  color: var(--first-color);
 }
 
 .home__search-input {
-  width: 40%;
+  width: 90%;
   background-color: var(--body-color);
   color: var(--text-color);
   margin: 0 .5rem;
@@ -410,7 +410,6 @@ body.dark-theme {
   bottom: -1.5rem;
   box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
 }
-
 
 /*=============== BUTTON ===============*/
 .button {
@@ -640,6 +639,7 @@ body.dark-theme {
 /*=============== CONTACT ===============*/
 .contact__container {
   row-gap: 2rem;
+  width: 1000px;
 }
 
 .contact__images {
@@ -698,6 +698,8 @@ body.dark-theme {
   border-radius: 6px;
   font-size: 1.25rem;
   color: var(--first-color);
+ margin-left: 55px;
+ 
 }
 
 .contact__card-title {
